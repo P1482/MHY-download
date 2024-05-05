@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/icons-extra.css" rel="stylesheet" />
+	</head>
+
+	<body style="background-color: #ebeaff;">
+		<script src="js/mui.min.js"></script>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">主页</h1>
+		</header>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a onclick="location.href='xz.html'" class="mui-tab-item">
+				<span class="mui-icon-extra mui-icon-extra-order"></span>
+				<span class="mui-tab-label">下载</span>
+			</a>
+			<a onclick="location.href='sz.html'" class="mui-tab-item">
+				<span class="mui-icon mui-icon-help"></span>
+				<span class="mui-tab-label">关于</span>
+			</a>
+		</nav>
+		<div class="mui-content" style="background-color: #ebeaff;">
+			<marquee style="background-color: #e74d00;color: white;">
+				<label style="margin-right: 10%;">米哈游下载器测试版本,当前版本:1.0.0.240505_beta</label>
+				<label>
+					<星穹铁道基地>招人啦!!
+				</label>
+			</marquee>
+			<div id="slider" class="mui-slider" style="margin-top: -5px;">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="images/fufu/10.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/1.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/2.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/3.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/4.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第五张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/5.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第六张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/6.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第七张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/7.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第八张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/8.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第九张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/9.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 第十张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="images/fufu/10.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="images/fufu/1.png" style="height: 220px;width: 100%;object-fit: cover;">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div style="display: flex;justify-content: center;">
+				<h3>公告</h3>
+			</div>
+			<div style="display: flex;justify-content: center;padding: 10px;">
+				<label>此软件为米哈游游戏下载器,只是一个因无聊而萌生的想法做出来的。通过跳转链接的方式制作。有许多bug要修😂</label>
+			</div>
+			<div style="display: flex;justify-content: center;">
+				<h3>广告</h3>
+			</div>
+			<div style="display: flex;margin: 15px;flex-direction: column;">
+				<label>
+					<星穹铁道基地>招人啦!
+				</label>
+				<label>群里有各色大佬,摸鱼人士,非常适合闲聊</label>
+				<label>群号:<span style="font-size: 20px;color: #e74d00;">615032000</span></label>
+				<a href="https://qm.qq.com/q/cwqh2bVWZa" style="font-size: 20px;">点击加入!</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			mui.init()
+			mui('.mui-slider').slider({
+				interval: 3000
+			})
+		</script>
+	</body>
+
+</html>
